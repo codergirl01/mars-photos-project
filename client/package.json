@@ -1,6 +1,6 @@
 {
   "name": "mars-project",
-  "homepage": "http://codergirl01.github.io/mars-photos-project"
+  "homepage": "http://codergirl01.github.io/mars-photos-project",
   "private": true,
   "version": "0.0.0",
   "type": "module",
