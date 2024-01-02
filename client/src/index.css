@@ -4,17 +4,18 @@
     box-sizing: border-box;
 }
 
-div#main-container {
-    padding: 10px;
-}
-
 h1 {
     color: red
 }
-h1, h2 {
+h1, h2, h3 {
     display:flex;
     justify-content: center;
 }
+
+div#main-container {
+    padding-top: 50px;
+}
+
 form {
     border: solid 2px;
     padding: 20px;
@@ -70,6 +71,19 @@ button.submit {
     padding: 15px;
     margin: 30px;
   }
+
+  .developer-information {
+    display: flex;
+    flex-direction: column;
+    background-color: thistle;
+    margin: 20px;
+    padding: 20px; 
+    position: absolute;
+    bottom: 0;
+    width: 95%;
+  }
+
+
 
   @media (max-width: 500px) {
     .images-container div {

@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import Form from './components/Form'
 import Images from './components/Images'
+import Footer from './components/Footer'
 
 
 
@@ -25,6 +26,7 @@ function App() {
       <h2>Curiosity</h2>
       <Form fetchImages={fetchImages} />
       <Images images={images} />
+      <Footer />
     </div>
   )
 }
