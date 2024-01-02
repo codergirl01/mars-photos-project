@@ -76,11 +76,11 @@ button.submit {
     display: flex;
     flex-direction: column;
     background-color: thistle;
-    margin: 20px;
-    padding: 20px; 
+    margin-bottom: 20px;
+    padding: 50px;  
     position: absolute;
     bottom: 0;
-    width: 95%;
+    width: 100%;
   }
 
 
