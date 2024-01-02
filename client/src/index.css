@@ -76,10 +76,10 @@ button.submit {
     display: flex;
     flex-direction: column;
     background-color: thistle;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
+    margin-top: 50px;
     padding: 50px;  
-    position: absolute;
-    bottom: 0;
+    position: sticky;
     width: 100%;
   }
 
@@ -93,5 +93,16 @@ button.submit {
 
     .images-container {
         justify-content: center;
+    }
+  }
+
+  @media (min-width: 1420px) {
+    .images-container div {
+        width: 15%;
+        height: 200px;
+    }
+
+    .images-container {
+        justify-content: left;
     }
   }
