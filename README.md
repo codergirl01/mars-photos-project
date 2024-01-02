@@ -18,8 +18,6 @@ git clone https://github.com/codergirl01/mars-photos-project.git
 ```
 cd client
 npm install
-cd ..
-npm install
 ```
 
 This command installs all the packages used in this project. Alternatively, packages can be installed individually:
@@ -40,8 +38,6 @@ Set your API key in an environment variable on your local machine then in the co
 ```
 cd client
 npm run dev
-cd ..
-node index.js
 ```
 This will provide a port where it renders the app on your local server. 
 
