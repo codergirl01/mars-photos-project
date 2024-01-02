@@ -2,6 +2,9 @@
 
 The purpose of this project is for users to quickly lookup mars photos on a particular solar day and camera. 
 
+### Demo
+Please see this demo deployed at: https://codergirl01.github.io/mars-photos-project/
+
 ### How to run on localhost:
 
 **1. Clone the project to local**
