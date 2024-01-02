@@ -70,3 +70,14 @@ button.submit {
     padding: 15px;
     margin: 30px;
   }
+
+  @media (max-width: 500px) {
+    .images-container div {
+        width: 50%;
+        height: 200px;
+    }
+
+    .images-container {
+        justify-content: center;
+    }
+  }
