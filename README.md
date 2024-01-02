@@ -1,6 +1,9 @@
 # Mars Photo API
 
-The purpose of this project is for users to quickly lookup mars photos on a particular solar day and camera. 
+The purpose of this project is for users to quickly lookup mars images gathered by NASA's Perseverance, Curiosity, Opportunity, and Spirit rovers on a particular solar day and camera. Results can be filtered by solar day and/or camera. Queries by solar day can range from 0, which is the date of landing, up to the current maximum in the database.
+
+### Demo
+Please see this demo deployed at: https://codergirl01.github.io/mars-photos-project/
 
 ### How to run on localhost:
 
@@ -14,6 +17,8 @@ git clone https://github.com/codergirl01/mars-photos-project.git
 
 ```
 cd client
+npm install
+cd ..
 npm install
 ```
 
