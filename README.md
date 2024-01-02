@@ -15,6 +15,8 @@ git clone https://github.com/codergirl01/mars-photos-project.git
 ```
 cd client
 npm install
+cd ..
+npm install
 ```
 
 This command installs all the packages used in this project. Alternatively, packages can be installed individually:
