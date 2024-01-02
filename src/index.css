@@ -95,3 +95,14 @@ button.submit {
         justify-content: center;
     }
   }
+
+  @media (min-width: 1420px) {
+    .images-container div {
+        width: 15%;
+        height: 200px;
+    }
+
+    .images-container {
+        justify-content: left;
+    }
+  }
